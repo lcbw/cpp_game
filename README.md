@@ -38,6 +38,18 @@ I focused on simplicity and ease for this project - using the quick Ninja build 
 
 I used [nlohmann/json] (https://github.com/nlohmann/json) for snappy json parsing (even if it is much too overloaded), and [fmt] (https://fmt.dev/12.0/) for some I/O formatting. 
 
+# Example run
+
+For the file included in test/assets, here is the expected result: 
+``` 
+Loading: cpp_navigation_game!
+valid path found - 95 moves:
+(30,8) (29,8) (28,8) (28,7) (28,6) (27,6) (27,5) (26,5) (26,4) (25,4) (24,4) (23,4) (22,4) (21,4) (21,5) (20,5) (20,6) (20,7) (20,8) (20,9) (20,10) (20,11) (20,12) (19,12) (18,12) (18,13) (18,14) (18,15) (17,15) (16,15) (15,15) (14,15) (13,15) (13,14) (12,14) (11,14) (10,14) (10,13) (9,13) (8,13) (8,14) (8,15) (8,16) (8,17) (8,18) (8,19) (8,20) (9,20) (9,21) (9,22) (9,23) (9,24) (10,24) (11,24) (11,25) (11,26) (12,26) (12,27) (13,27) (13,28) (14,28) (15,28) (15,29) (16,29) (17,29) (17,30) (17,31) (16,31) (15,31) (14,31) (13,31) (12,31) (11,31) (10,31) (9,31) (8,31) (8,30) (8,29) (8,28) (8,27) (8,26) (7,26) (6,26) (6,27) (5,27) (4,27) (4,28) (4,29) (3,29) (2,29) (2,28) (2,27) (2,26) (1,26) (0,26) (0,25) 
+``` 
+
+Other, smaller maps and their outputs can be found handwritten in test/source/cpp_navigation_game_test.cpp 
+
+
 
 # Contributing
 
