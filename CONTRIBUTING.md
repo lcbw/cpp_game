@@ -1,13 +1,8 @@
 # Contributing
 
-<!--
-    Short overview, rules, general guidelines, notes about pull requests and
-    style should go here.
--->
+This is a simple game workspace where a balance between readability and efficiency is desired. 
 
-## Code of Conduct
-
-Please see the [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) document.
+There is also a balance to be struck between modularity and simplicity. 
 
 ## Getting started
 
@@ -17,3 +12,5 @@ document.
 In addition to he above, if you use the presets file as instructed, then you
 should NOT check it into source control, just as the CMake documentation
 suggests.
+
+## 

@@ -3,10 +3,17 @@
 
 #include "lib.hpp"
 
-auto main() -> int
+auto main(int argc, char* argv[]) -> int
 {
   auto const lib = library {};
-  auto const message = "Hello from " + lib.name + "!";
-  std::cout << message << '\n';
-  return 0;
+  std::cout << "Loading: " << lib.name << "!\n";
+
+  if (argc != 2)
+  {
+    std::cout << "usage: " << argv[0] << " <map.json>\n";
+    return 1;
+  }
+
+  auto game = battlefieldGame {};
+  return game.play(std::string {argv[1]});
 }
