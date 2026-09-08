@@ -1,5 +1,7 @@
 # Building with CMake
 
+This building guide is boilerplate thanks to [the project template by friendlyanon][0]. This document is unchanged from their boilerplate. 
+
 ## Dependencies
 
 For a list of dependencies, please refer to [vcpkg.json](vcpkg.json).
@@ -59,6 +61,6 @@ multi-configuration generator, like the Visual Studio ones:
 ```sh
 cmake --install build --config Release
 ```
-
+[0]: https://github.com/friendlyanon/cmake-init
 [1]: https://cmake.org/download/
 [2]: https://cmake.org/cmake/help/latest/manual/cmake.1.html#install-a-project
